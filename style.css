@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,400&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden !important;
+}
+header{
+    background-image: url(./images/unsplash_FCHlYvR5gJI.png);
+    background-size: cover;
+    height:90vh;
+    width: 100vw;
+}
+
+.navigation{
+    position: absolute;
+    /* left: calc(50% - 350px); */
+    bottom: calc(28%);
+    list-style: none;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    font-family:'Roboto', sans-serif;;
+}
+  a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    position: relative;
+    margin: 0 auto;
+    padding: 0.7rem;
+    border-bottom: 0.7px #cccccc solid;
+    width: 89vw;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display:flex;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+nav ul li {
+    margin: 0 3rem 0 3rem;
+}
+nav ul li a{
+    font-size: 1.4rem;
+    /* width: 10%; */
+    font-family:'Roboto', sans-serif;;
+}
+.login{
+    background-color: #00d899;
+    height: 45%;
+    margin-left: 3rem;
+    width: 10%;
+    border: 0;
+    border-radius:20px ;
+    color: white;
+    position: absolute;
+    top: 29%;
+    right: 0%;
+    font-size: 1rem;
+    font-family:'Roboto', sans-serif;;
+}
+
+#comment{
+    position: absolute;
+    height:50px;
+    width:50px;
+    bottom: 8rem;
+    right: 4rem;
+}
+.talk {
+    width: 80%;
+    height: 60%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Roboto', sans-serif;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.talk > p 
+{
+text-align: center;
+color: white;
+font-size: 1.4rem;
+}
+
+.book{
+    font-size: 1.2rem;
+    padding: 1em 0;
+    height: 12%;
+    width: 20%;
+    text-align: center;
+    background-color: #00d899;
+    border-radius:50px ;
+     color: white;
+      border: 0;
+      margin: 1em 0;
+      font-family:'Roboto', sans-serif;;
+}
+.logo{
+    position: relative;
+    margin-right: 2em;
+    width: 17%;
+    top: -2px;
+    left:-42%;
+    background-color:transparent;
+}
+.nearLogo{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    bottom: 10px;
+    font-family:'Roboto', sans-serif;;
+}
+.green{
+    color: #00d899;
+
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family:'Roboto', sans-serif;;
+}
+.second{
+    width: 100vw;
+   padding: 4rem;
+    /* height: 90vh; */
+    display:flex;
+    grid-template-areas: 
+    "off boxes"
+    ;
+    gap: 10%;
+}
+.smart{
+    grid-area: off;
+    font-size: 1.7rem;
+    padding: 1rem;
+    font-family:'Roboto', sans-serif;;
+}
+.four{
+    margin:0 1rem;
+    display: grid;
+    grid-template-areas: 
+    "web sof"
+    "app bra"
+     ;
+     gap: 10%;
+     font-size: 1.3rem;
+     font-family:'Roboto', sans-serif;;
+}
+.whoy{
+    font-family:'Roboto', sans-serif;;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.who{
+    width: 35%;
+    font-size: 2rem;
+    font-family:'Roboto', sans-serif;;
+    grid-area: who;
+}
+.explain{
+    font-family:'Roboto', sans-serif;;
+   width: 52%;
+   padding-right: 60px;
+}
+.explain p{
+    font-size: 1.3rem;
+}
+.logo2{
+    width: 100%;
+    height: 15%;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+.godAbeg{
+    width: 100vw;
+    /* height: 50vh; */
+    display: grid;
+    grid-template-areas:
+    "why pics pics"
+    ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap:20%;
+    margin-top: 1rem;
+}
+.why{
+    grid-area: why;
+    width: 25vw;
+    font-family:'Roboto', sans-serif;;
+}
+.pics{
+    grid-area: pics;
+    width: 50vw;
+   
+}
+.why h3{
+    font-size: 2rem;
+    font-family:'Roboto', sans-serif;;
+    
+}
+.godAbeg p{
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+}
+footer{
+    /* width: 98vw; */
+    height: 50vh;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.contact{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+    justify-content: space-between;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: flex-start;
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+ }
+.faq ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.faq ul li{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+}
+.down{
+    height: 2.5vh;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+}
+.again{
+    font-size: 1.3rem;
+    font-family:'Roboto', sans-serif;;
+}
+@media (max-width: 900px) {
+    .navigation{
+        display: grid;
+        grid-template-areas:
+        "serv about"
+        "port career"
+        ;
+    }
+    .logo{
+        width: 25%;
+        margin-left: 5rem;
+    }
+}
+@media (max-width: 750px) {
+    .navigation{
+        display: none;
+        margin-bottom: 2rem;
+    }
+    .login{
+        width: 30%;
+        height: 45%;
+    }
+    .book{
+        width: 35%;
+        height: 13%;
+    }
+    .logo{
+        width: 35%;
+        margin-left: 5rem;
+    }
+    header{
+        width: 100vw;
+        height: 100vh;
+    }
+    .talk{
+        margin-top: 2rem;
+    }
+    .second{
+        width: 100vw;
+        height: auto;
+       padding: 4rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .smart{
+        grid-area: off;
+        font-size: 1.4rem;
+    }
+    .four{
+         font-size: 1.1rem;
+    }
+    .whoy{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .who{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .explain{
+       width: 100%;
+       padding-right: 0px;
+    }
+    .explain p{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .logo2{
+        margin-bottom: 1rem;
+    }
+    .godAbeg{
+        width: 100vw;
+        display: grid;
+        grid-template-areas:
+        "why"
+        "pics";
+        height: auto;
+        text-align: center;
+       
+        gap: 1rem;
+    }
+    .why, .pics{
+        width: 100%;
+    }
+    .why h3{
+        margin-top: 2rem;
+        font-size: 1.7rem;  
+    }
+    .godAbeg p{
+        font-size: 1.1rem;
+    }
+
+    footer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: flex-start;
+    }
+    .contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    justify-content: space-between;
+    }
+    .contact p{
+        font-size: 1.1rem;
+        margin: 1rem 0;
+    }
+.faq{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    font-size: 1.1rem;
+ }
+.faq ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style:circle;
+}
+.faq ul li{
+    margin: 2rem 0;
+}
+.down{
+    height: 2.5vh;
+    text-align: center;
+
+}
+.again{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    font-family:'Roboto', sans-serif;;
+}
+}
+@media (max-width: 540px) {
+    .book{
+        height: 40%;
+    }
+}
+@media (max-width:450px) {
+    nav{
+        height: 15vh;
+    }
+
+    header{
+        width: 100vw;
+    }
+    .book{
+        height: 20%;
+        width: 40%;
+    }
+    #comment{
+         position: absolute;
+        top: 35rem;
+        right: 1rem;
+    }
+}
+@media (max-width:400px) {
+    .talk h1{
+        font-size: 2rem;
+    }
+    header{
+        height: 100vh;
+    }
+    .smart{
+        text-align: center;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .book{
+        font-size: 14px;
+    }
+}
